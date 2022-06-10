@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA6301392852428100594612 /* Project_ARApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6301382852428100594612 /* Project_ARApp.swift */; };
+		FA63013B2852428100594612 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63013A2852428100594612 /* ContentView.swift */; };
+		FA63013D2852428400594612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA63013C2852428400594612 /* Assets.xcassets */; };
+		FA6301402852428400594612 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA63013F2852428400594612 /* Preview Assets.xcassets */; };
+		FA63014A2852428500594612 /* Project_ARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6301492852428500594612 /* Project_ARTests.swift */; };
+		FA6301542852428500594612 /* Project_ARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6301532852428500594612 /* Project_ARUITests.swift */; };
+		FA6301562852428500594612 /* Project_ARUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6301552852428500594612 /* Project_ARUITestsLaunchTests.swift */; };
+		FA6301632852490B00594612 /* Signinpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6301622852490B00594612 /* Signinpage.swift */; };
+		FA63016528524C4800594612 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63016428524C4800594612 /* SideMenu.swift */; };
+		FA63016728525B4500594612 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63016628525B4500594612 /* TabBar.swift */; };
+		FA63016A2852EF0D00594612 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = FA6301692852EF0D00594612 /* GoogleSignIn */; };
+		FA63016C2852EF0D00594612 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FA63016B2852EF0D00594612 /* GoogleSignInSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA6301462852428500594612 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA63012D2852428100594612 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA6301342852428100594612;
+			remoteInfo = "Project AR";
+		};
+		FA6301502852428500594612 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA63012D2852428100594612 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA6301342852428100594612;
+			remoteInfo = "Project AR";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA6301352852428100594612 /* Project AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project AR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6301382852428100594612 /* Project_ARApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_ARApp.swift; sourceTree = "<group>"; };
+		FA63013A2852428100594612 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA63013C2852428400594612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA63013F2852428400594612 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA6301452852428500594612 /* Project ARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project ARTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6301492852428500594612 /* Project_ARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_ARTests.swift; sourceTree = "<group>"; };
+		FA63014F2852428500594612 /* Project ARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project ARUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6301532852428500594612 /* Project_ARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_ARUITests.swift; sourceTree = "<group>"; };
+		FA6301552852428500594612 /* Project_ARUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_ARUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA6301622852490B00594612 /* Signinpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signinpage.swift; sourceTree = "<group>"; };
+		FA63016428524C4800594612 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		FA63016628525B4500594612 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA6301322852428100594612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA63016A2852EF0D00594612 /* GoogleSignIn in Frameworks */,
+				FA63016C2852EF0D00594612 /* GoogleSignInSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6301422852428500594612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA63014C2852428500594612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA63012C2852428100594612 = {
+			isa = PBXGroup;
+			children = (
+				FA6301372852428100594612 /* Project AR */,
+				FA6301482852428500594612 /* Project ARTests */,
+				FA6301522852428500594612 /* Project ARUITests */,
+				FA6301362852428100594612 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA6301362852428100594612 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA6301352852428100594612 /* Project AR.app */,
+				FA6301452852428500594612 /* Project ARTests.xctest */,
+				FA63014F2852428500594612 /* Project ARUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA6301372852428100594612 /* Project AR */ = {
+			isa = PBXGroup;
+			children = (
+				FA6301382852428100594612 /* Project_ARApp.swift */,
+				FA63013A2852428100594612 /* ContentView.swift */,
+				FA6301622852490B00594612 /* Signinpage.swift */,
+				FA63016428524C4800594612 /* SideMenu.swift */,
+				FA63016628525B4500594612 /* TabBar.swift */,
+				FA63013C2852428400594612 /* Assets.xcassets */,
+				FA63013E2852428400594612 /* Preview Content */,
+			);
+			path = "Project AR";
+			sourceTree = "<group>";
+		};
+		FA63013E2852428400594612 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA63013F2852428400594612 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA6301482852428500594612 /* Project ARTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA6301492852428500594612 /* Project_ARTests.swift */,
+			);
+			path = "Project ARTests";
+			sourceTree = "<group>";
+		};
+		FA6301522852428500594612 /* Project ARUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA6301532852428500594612 /* Project_ARUITests.swift */,
+				FA6301552852428500594612 /* Project_ARUITestsLaunchTests.swift */,
+			);
+			path = "Project ARUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA6301342852428100594612 /* Project AR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6301592852428500594612 /* Build configuration list for PBXNativeTarget "Project AR" */;
+			buildPhases = (
+				FA6301312852428100594612 /* Sources */,
+				FA6301322852428100594612 /* Frameworks */,
+				FA6301332852428100594612 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project AR";
+			packageProductDependencies = (
+				FA6301692852EF0D00594612 /* GoogleSignIn */,
+				FA63016B2852EF0D00594612 /* GoogleSignInSwift */,
+			);
+			productName = "Project AR";
+			productReference = FA6301352852428100594612 /* Project AR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA6301442852428500594612 /* Project ARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA63015C2852428500594612 /* Build configuration list for PBXNativeTarget "Project ARTests" */;
+			buildPhases = (
+				FA6301412852428500594612 /* Sources */,
+				FA6301422852428500594612 /* Frameworks */,
+				FA6301432852428500594612 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA6301472852428500594612 /* PBXTargetDependency */,
+			);
+			name = "Project ARTests";
+			productName = "Project ARTests";
+			productReference = FA6301452852428500594612 /* Project ARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA63014E2852428500594612 /* Project ARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA63015F2852428500594612 /* Build configuration list for PBXNativeTarget "Project ARUITests" */;
+			buildPhases = (
+				FA63014B2852428500594612 /* Sources */,
+				FA63014C2852428500594612 /* Frameworks */,
+				FA63014D2852428500594612 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA6301512852428500594612 /* PBXTargetDependency */,
+			);
+			name = "Project ARUITests";
+			productName = "Project ARUITests";
+			productReference = FA63014F2852428500594612 /* Project ARUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA63012D2852428100594612 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					FA6301342852428100594612 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					FA6301442852428500594612 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = FA6301342852428100594612;
+					};
+					FA63014E2852428500594612 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = FA6301342852428100594612;
+					};
+				};
+			};
+			buildConfigurationList = FA6301302852428100594612 /* Build configuration list for PBXProject "Project AR" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA63012C2852428100594612;
+			packageReferences = (
+				FA6301682852EF0D00594612 /* XCRemoteSwiftPackageReference "GoogleSignIn-ios" */,
+			);
+			productRefGroup = FA6301362852428100594612 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA6301342852428100594612 /* Project AR */,
+				FA6301442852428500594612 /* Project ARTests */,
+				FA63014E2852428500594612 /* Project ARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA6301332852428100594612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6301402852428400594612 /* Preview Assets.xcassets in Resources */,
+				FA63013D2852428400594612 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6301432852428500594612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA63014D2852428500594612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA6301312852428100594612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA63013B2852428100594612 /* ContentView.swift in Sources */,
+				FA6301632852490B00594612 /* Signinpage.swift in Sources */,
+				FA6301392852428100594612 /* Project_ARApp.swift in Sources */,
+				FA63016528524C4800594612 /* SideMenu.swift in Sources */,
+				FA63016728525B4500594612 /* TabBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6301412852428500594612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA63014A2852428500594612 /* Project_ARTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA63014B2852428500594612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6301542852428500594612 /* Project_ARUITests.swift in Sources */,
+				FA6301562852428500594612 /* Project_ARUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA6301472852428500594612 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA6301342852428100594612 /* Project AR */;
+			targetProxy = FA6301462852428500594612 /* PBXContainerItemProxy */;
+		};
+		FA6301512852428500594612 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA6301342852428100594612 /* Project AR */;
+			targetProxy = FA6301502852428500594612 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA6301572852428500594612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA6301582852428500594612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA63015A2852428500594612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Project AR/Preview Content\"";
+				DEVELOPMENT_TEAM = 24SJV6KZA3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arisme.Project-AR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA63015B2852428500594612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Project AR/Preview Content\"";
+				DEVELOPMENT_TEAM = 24SJV6KZA3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arisme.Project-AR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA63015D2852428500594612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24SJV6KZA3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arisme.Project-ARTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project AR.app/Project AR";
+			};
+			name = Debug;
+		};
+		FA63015E2852428500594612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24SJV6KZA3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arisme.Project-ARTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project AR.app/Project AR";
+			};
+			name = Release;
+		};
+		FA6301602852428500594612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24SJV6KZA3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arisme.Project-ARUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Project AR";
+			};
+			name = Debug;
+		};
+		FA6301612852428500594612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24SJV6KZA3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arisme.Project-ARUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Project AR";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA6301302852428100594612 /* Build configuration list for PBXProject "Project AR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6301572852428500594612 /* Debug */,
+				FA6301582852428500594612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA6301592852428500594612 /* Build configuration list for PBXNativeTarget "Project AR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA63015A2852428500594612 /* Debug */,
+				FA63015B2852428500594612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA63015C2852428500594612 /* Build configuration list for PBXNativeTarget "Project ARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA63015D2852428500594612 /* Debug */,
+				FA63015E2852428500594612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA63015F2852428500594612 /* Build configuration list for PBXNativeTarget "Project ARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6301602852428500594612 /* Debug */,
+				FA6301612852428500594612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA6301682852EF0D00594612 /* XCRemoteSwiftPackageReference "GoogleSignIn-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA6301692852EF0D00594612 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA6301682852EF0D00594612 /* XCRemoteSwiftPackageReference "GoogleSignIn-ios" */;
+			productName = GoogleSignIn;
+		};
+		FA63016B2852EF0D00594612 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA6301682852EF0D00594612 /* XCRemoteSwiftPackageReference "GoogleSignIn-ios" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FA63012D2852428100594612 /* Project object */;
+}
